@@ -1,30 +1,27 @@
 pipeline {
     agent any
-
     stages {
         stage('Checkout') {
             steps {
                 checkout scm
             }
         }
-
         stage('Build') {
             steps {
-                echo 'Build stage started...'
-                bat 'python --version || python3 --version'
+                bat 'if exist build rmdir /s /q build'
+                bat 'mkdir build'
+                bat 'javac -d build src\\TemperatureConverter.java tests\\TemperatureConverterTest.java'
             }
         }
-
         stage('Test') {
             steps {
-                echo 'Running tests...'
-                bat 'python -m pytest tests/ -v || python3 -m pytest tests/ -v'
+                bat 'java -cp build TemperatureConverterTest'
             }
         }
-
         stage('Result') {
             steps {
-                echo 'Pipeline completed successfully!'
+                bat 'git log -1 --oneline'
+                echo 'CI RESULT: SUCCESS'
             }
         }
     }
