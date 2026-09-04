@@ -1,9 +1,5 @@
 public class TemperatureConverter {
-<<<<<<< HEAD
-private static final String APP_BANNER = "DevOps Temperature Converter v1.1 - Extended and Stable";
-=======
-    private static final String APP_BANNER = "DevOps Temperature Converter v1.1 - Stable";
->>>>>>> bugfix-23BCS070
+    private static final String APP_BANNER = "DevOps Temperature Converter v1.1 - Extended and Stable";
 
     public static double celsiusToFahrenheit(double celsius) {
         return (celsius * 9 / 5) + 32;
