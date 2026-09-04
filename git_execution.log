@@ -1,0 +1,77 @@
+* commit f9fb1cd02838f99ddaec921cabb00a72385d64f0 (HEAD -> main, origin/main, origin/HEAD)
+| Author: Kavin Mohan <kavinmk.official@gmail.com>
+| Date:   2026-09-05 00:47:00 +0530
+|
+|     Fixed file name
+|
+*   commit 3b100cb2f65ce1b8129bb0e0e29c717dd41452d5
+|\  Merge: 1989c8a 3b38814
+| | Author: Kavin Mohan <kavinmk.official@gmail.com>
+| | Date:   2026-09-05 00:40:46 +0530
+| |
+| |     Merge branch 'main' of https://github.com/Kavin-MK-Official/DevOps_CI_23BCS070
+| |
+| *   commit 3b38814e6d8f3389f92ec54183a0dfc5bf96538d
+| |\  Merge: ab5c8e3 75207ff
+| | | Author: Kavin-MK-Official <kavinmk.official@gmail.com>
+| | | Date:   2026-09-05 00:38:48 +0530
+| | |
+| | |     Merge pull request #1 from Kavin-MK-Official/feature-23BCS070
+| | |
+| | |     Add Kelvin Conversion Support
+| | |
+* | | commit 1989c8ab3f82dde7afc9d02f3df7e158d57e2c1a
+| | | Author: Kavin Mohan <kavinmk.official@gmail.com>
+| | | Date:   2026-09-05 00:35:36 +0530
+| | |
+| | |     Resolve merge conflict - combined banner
+| | |
+* | |   commit 2f9bcc1c04c53e96174653bdaa0d4ff2e0018432
+|\ \ \  Merge: 75207ff 9426a0b
+| |_|/  Author: Kavin Mohan <kavinmk.official@gmail.com>
+|/| |   Date:   2026-09-05 00:35:17 +0530
+| | |
+| | |       Resolve merge conflict - combined banner
+| | |
+| * | commit 9426a0bb82f00d590c1bae39ccbf011ec33814a7
+| |/  Author: Kavin Mohan <kavinmk.official@gmail.com>
+| |   Date:   2026-09-05 00:32:15 +0530
+| |
+| |       Improve precision handling
+| |
+* | commit 75207ffb7ff37c003b0554d7b5b8fb4b05cf5fa5 (origin/feature-23BCS070)
+|/  Author: Kavin Mohan <kavinmk.official@gmail.com>
+|   Date:   2026-09-05 00:30:23 +0530
+|
+|       Add Kelvin Conversion Support
+|
+* commit ab5c8e31b37dce3c2c1b7ebbf6b617a53d10fa2c
+| Author: Kavin Mohan <kavinmk.official@gmail.com>
+| Date:   2026-09-05 00:24:31 +0530
+|
+|     Initial commit
+|
+*   commit 53259ff87ff16f6ef658d450acd86e2063f93cac
+|\  Merge: d7c1608 b8da58b
+| | Author: Kavin Mohan <kavinmk.official@gmail.com>
+| | Date:   2026-09-04 22:24:25 +0530
+| |
+| |     Merge branch 'main' of https://github.com/Kavin-MK-Official/DevOps_CI_23BCS070
+| |
+| * commit b8da58b3c12fd3997310a9fd4aa98058dfeef77a
+| | Author: Kavin-MK-Official <kavinmk.official@gmail.com>
+| | Date:   2026-09-04 22:08:39 +0530
+| |
+| |     Update README.md
+| |
+* | commit d7c1608a03614cdc0850dc4971e19bfc381ab382
+|/  Author: Kavin Mohan <kavinmk.official@gmail.com>
+|   Date:   2026-09-04 22:23:27 +0530
+|
+|       Add Jenkinsfile for CI pipeline
+|
+* commit 7f51353300eccd20b96043354adc7b08a2876d58
+  Author: Kavin Mohan <kavinmk.official@gmail.com>
+  Date:   2026-09-04 21:56:49 +0530
+
+      Initial commit
